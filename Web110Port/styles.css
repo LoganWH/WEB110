@@ -1,0 +1,108 @@
+
+/* styles.css - Logan Hewitt portfolio site */
+
+/* Global Styles */
+body {
+    font-family: "MS Sans Serif", Tahoma, sans-serif;
+    background-color: #c0c0c0; /* Windows 95 gray background */
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+/* Wrapper for center alignment with shadow */
+#wrapper {
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 1em;
+    background-color: #ffffff; /* White background for content area */
+    border: 2px solid #808080; /* Gray border */
+    box-shadow: 2px 2px 0px #ffffff inset, -2px -2px 0px #000 inset; /* Win95-style */
+}
+
+/* Header Styles */
+header {
+    background-color: #000080; /* Windows 95 dark blue */
+    color: #ffffff;
+    text-align: center;
+    padding: 0.8em;
+    font-size: 1.5em;
+    font-weight: bold;
+    border-top-left-radius: 2px;
+    border-top-right-radius: 2px;
+    text-shadow: -1px -1px #000;
+}
+
+/* Navigation Styles with Win95 Button Look */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    background-color: #c0c0c0; /*gray with flat look */
+    padding: 5px 10px;
+    border: 2px solid #808080;
+    box-shadow: 1px 1px #ffffff inset, -1px -1px #000 inset;
+    transition: background-color 0.2s;
+}
+
+nav a:hover {
+    background-color: #a0a0a0; /* Make slightly darker, black is ugly for some reason*/
+}
+
+/* Main Content */
+main {
+    margin: 1em 0;
+    padding: 1em;
+    border: 1px solid #808080;
+    background-color: #ffffff;
+}
+
+/* Footer with Win95 Style */
+footer {
+    text-align: center;
+    padding: 0.5em 0;
+    font-size: 0.8em;
+    color: #000;
+    background-color: #c0c0c0;
+    border-top: 1px solid #808080;
+    box-shadow: 1px 1px #ffffff inset, -1px -1px #000 inset;
+}
+
+/* header */
+h1 {
+    color: #FFFFFF;
+	text-shadow: -5px -1px #000; /*added this to make it pop out a little more*/
+}
+/*making the text a diffrent color from main header for readability*/
+h2,h3 {
+    color: #000000;
+}
+
+p, ul, ol {
+    font-size: 1em;
+    line-height: 1.6;
+    margin: 0.5em 0;
+}
+
+/* Links in Content */
+a {
+    color: #000080;
+}
+
+a:hover {
+    color: #ff0000; /*Windows red on hover */
+    text-decoration: underline;
+}
