@@ -1,0 +1,116 @@
+/* Logan Hewitt, 10/12/24 */
+body {
+	display: flex;/* using flexbox on the body and wrapper to better align items stuff */
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0194b5;
+    background: linear-gradient(#FFFFFF, #0194b5);
+	min-height: 100vh; /*to Ensure the body element is set to cover the full viewport height*/
+	margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+	flex: 1;
+	min-height: 100vh; /*seting min-height to fill the viewport*/
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 1em; /*I like the way this looks idk if im allowed to do this */
+    background-color: #FFFFFF;
+	border: 2px solid #808080;
+    box-shadow: 3px 3px 3px #333333;
+}
+
+
+header{
+	background-image: url('logo.png');
+	background-color: #29485d;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 400%;
+    text-indent: 1em;
+}
+
+nav {
+    background-color: #C6D02F;
+    padding: 10px;
+	font-weight: bold;
+}
+
+nav a {
+    text-decoration: none;
+}
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+	color: #407386;
+}
+h1 {
+	 color: #FFFFFF;
+}
+h3 {
+    color: #29485d;
+}
+
+dt {
+    color: #0194B5;
+}
+
+.web {
+    color: #0194B5;
+}
+
+h1 {
+    margin-bottom: 0;
+	
+}
+
+ul {
+    list-style-image: url('marker.gif');
+}
+
+li {
+    line-height: 1.5;
+}
+footer {
+	margin-top: auto;
+    padding-bottom: 1em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.web {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+#homehero {
+    height: 400px;
+    background-image: url('homehero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trackshero {
+    height: 400px;
+    background-image: url('trackshero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#facultyhero {
+    height: 400px;
+    background-image: url('facultyhero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+
