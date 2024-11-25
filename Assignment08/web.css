@@ -1,0 +1,177 @@
+/* Logan Hewitt, 10/12/24 */
+body {
+	display: flex;/* using flexbox on the body and wrapper to better align items stuff */
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #0194b5;
+    background: linear-gradient(#FFFFFF, #0194b5);
+	min-height: 100vh; /*to Ensure the body element is set to cover the full viewport height*/
+	margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+	flex: 1;
+	min-height: 100vh; /*seting min-height to fill the viewport*/
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 10px auto;
+    padding: 1em; /*I like the way this looks idk if im allowed to do this */
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px 3px #333333;
+	border: 1px solid #000033;
+}
+
+
+header{
+	background-image: url('logo.png');
+	background-color: #29485d;
+    padding: 20px;
+    background-repeat: no-repeat;
+    background-position: right;
+    line-height: 400%;
+    text-indent: 1em;
+	height: 120px;
+    text-align: left;
+    padding-top: 30px;
+}
+header a {
+    text-decoration: none;
+    color: white;
+}
+header a:hover {
+    color: #c6d02f;
+}
+
+nav a {
+    text-decoration: none;
+}
+h2, h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+	color: #407386;
+}
+h1 {
+	 color: #FFFFFF;
+}
+h3 {
+    color: #29485d;
+}
+
+dt {
+    color: #0194B5;
+}
+
+.web {
+    color: #0194B5;
+}
+
+h1 {
+    margin-bottom: 0;
+	
+}
+
+ul {
+    list-style-image: url('marker.gif');
+}
+
+li {
+    line-height: 1.5;
+}
+footer {
+	margin-top: auto;
+    padding-bottom: 1em;
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.web {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
+#homehero {
+    height: 400px;
+    background-image: url('homehero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#trackshero {
+    height: 400px;
+    background-image: url('trackshero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#facultyhero {
+    height: 400px;
+    background-image: url('facultyhero.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+* { box-sizing: border-box; }
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 1.5em;
+    font-size: 120%;
+    margin: 0;
+    padding: 0;
+    display: flex; /* makes sure the items in the <ul> are displayed inline */
+}
+nav li {
+    display: inline;
+    padding: 1em;
+}
+nav a:link {
+    color: #0194b5;
+}
+nav a:visited {
+    color: #29485d;
+}
+nav a:hover {
+    color: #c6d02f;
+}
+
+section {
+    float: left;
+    width: 25%;
+    padding: 2em;
+	flex: 1 1 calc(25% - 1em); 
+    background-color: #f9f9f9; /* Light background for sections */
+    border: 1px solid #ccc; /* Adds a light border */
+    padding: 1em; /* Adds space inside each section */
+    box-sizing: border-box; /* makes sure padding doesn't break the layout */
+    text-align: center; /* Centers text inside sections */
+}
+
+main {
+    background-color: white;
+    overflow: auto;
+	display: flex; /* Enables Flexbox */
+    flex-wrap: wrap; /* Wraps items to the next row if needed */
+    justify-content: space-between; /* Spaces items evenly */
+    gap: 1em; /* Adds space between items */
+    background-color: white; /* Matches the background */
+    padding: 1em; /*padding around the content */
+}
+nav {
+    display: flex;
+    justify-content: center; /* Horizontally centers the <ul> */
+    align-items: center; /* Vertically centers if needed */
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+
