@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+<main>
+    <h2>Get a Custom Gaming PC Recommendation</h2>
+    <form action="submit_form.html" method="POST">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="budget">Your Budget:</label>
+        <select id="budget" name="budget">
+            <option value="entry">Under $800</option>
+            <option value="mid">Between $800 and $1500</option>
+            <option value="high">Above $1500</option>
+        </select><br>
+        <input type="submit" value="Get Recommendation">
+        <input type="reset" value="Reset">
+    </form>
+</main>
